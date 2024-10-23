@@ -1,0 +1,87 @@
+body{
+    background-image: url('images/background.jpg');
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover cover;
+}
+h1{
+    font-size: 50px;
+    color: white;
+}
+p{
+    margin: auto;
+}
+.box{
+    width: 40%;
+    padding: 20px;
+    margin: auto;
+   
+    
+    position: relative;
+    border-radius: 20px;
+    color: white;
+    
+}
+i{
+    color: white;
+    margin: auto;
+}
+.fa-magnifying-glass{
+    cursor: pointer;
+}
+.search{
+    justify-content: space-between;
+    display: flex;
+}
+.search input{
+    
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+}
+.search input:focus-visible{
+    border-color: transparent!important;
+}
+.container .box .weather-img img{
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+.temp{
+    text-align: center;
+}
+h1{
+    font-size: 45px;
+    position: relative;
+    text-align: center;
+}
+h1 span{
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+}
+p{
+    font-size: 32px;
+}
+.humandity{
+    display: flex;
+    justify-content: space-between;
+}
+.humandity p{
+    font-size: 17px;
+    
+}
+.hide {
+    display: none;
+}
+button{
+    border: none;
+    background-color: transparent;
+}
